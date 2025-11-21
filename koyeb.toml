@@ -1,5 +1,8 @@
+name = "koyeb-demo"
+type = "web"
+
 [build]
-builder = "python:3.11"
+builder = "python"
 
 [run]
 cmd = "uvicorn main:app --host 0.0.0.0 --port $PORT"
